@@ -3,9 +3,9 @@ node {
     def server = Artifactory.server 'jfrog'
 
     // Read the upload spec which was downloaded from github.
-    def uploadSpec = readFile 'props-upload.json'
+   // def uploadSpec = readFile 'props-upload.json'
     // Upload to Artifactory.
-    def buildInfo1 = server.upload spec: uploadSpec
+    // def buildInfo1 = server.upload spec: uploadSpec
    
     // Read the download spec and download files from Artifactory.
     def downloadSpec = readFile 'exclude-download.json'
