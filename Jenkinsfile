@@ -10,7 +10,7 @@ node {
     // Read the download spec and download files from Artifactory.
     def downloadSpec = readFile 'exclude-download.json'
     def buildInfo2 = server.download spec: downloadSpec
-    sh "chmod 777 /var/lib/jenkins/workspace/saiteja"
+    sh "sudo chmod 777 /var/lib/jenkins/workspace/saiteja"
     sh "/var/lib/jenkins/workspace/saiteja"
     // Merge the upload and download build-info objects.
      // buildInfo1.append buildInfo2
