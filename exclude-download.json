@@ -3,7 +3,7 @@
     {
       "pattern": "libs-snapshot-local",
       "target": "Bazinga/",
-      "excludePatterns": ["*com"]
+      "excludePatterns": ["com"]
     }
   ]
 }
