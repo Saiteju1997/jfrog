@@ -1,13 +1,9 @@
 {
   "files": [
     {
-      "pattern": "props-upload.json",
+      "pattern": "ArtifactoryPipeline.zip",
       "target": "libs-snapshot-local",
       "props": "p1=v1;p2=v2"
-    },
-    {
-      "pattern": "props-upload.json",
-      "target": "libs-snapshot-local"
     }
   ]
 }
