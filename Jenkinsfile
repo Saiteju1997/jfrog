@@ -3,7 +3,7 @@ node {
     def server = Artifactory.server 'jfrog'
 
     // Read the upload spec which was downloaded from github.
-    def uploadSpec = readFile 'jenkins-examples/pipeline-examples/resources/props-upload.json'
+    def uploadSpec = readFile 'ArtifactoryPipeline.zip'
     // Upload to Artifactory.
     def buildInfo1 = server.upload spec: uploadSpec
    
