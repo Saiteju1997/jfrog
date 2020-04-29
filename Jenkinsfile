@@ -12,8 +12,8 @@ node {
     def buildInfo2 = server.download spec: downloadSpec
 
     // Merge the upload and download build-info objects.
-     buildInfo1.append buildInfo2
+     // buildInfo1.append buildInfo2
 
     // Publish the build to Artifactory
-     server.publishBuildInfo buildInfo1
+     // server.publishBuildInfo buildInfo1
 }
