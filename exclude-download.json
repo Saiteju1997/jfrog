@@ -2,7 +2,7 @@
  "files": [
   {
       "pattern": "libs-snapshot-local/*",
-      "target": "Bazinga/",
+      "target": "Bazinga/{1}/",
       "props": "p1=v1;p2=v2"
     }
  ]
