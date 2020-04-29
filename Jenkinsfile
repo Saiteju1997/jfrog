@@ -1,6 +1,5 @@
 node {
-   checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'GITHUB', url: 'https://github.com/Saiteju1997/project-examples.git']]])
- // Obtain an Artifactory server instance, defined in Jenkins --> Manage:
+   checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'GITHUB', url: 'https://github.com/Saiteju1997/jfrog.git']]]) // Obtain an Artifactory server instance, defined in Jenkins --> Manage:
     def server = Artifactory.server 'jfrog'
 
     // Read the download spec and download files from Artifactory.
