@@ -1,9 +1,8 @@
 {
   "files": [
     {
-      "pattern": "libs-snapshot-local",
+      "pattern": "libs-snapshot-local/devops/ilp1/ILP/0.0.1-SNAPSHOT",
       "target": "Bazinga/",
-      "excludePatterns": ["*ArtifactoryPipeline.zip"]
     }
   ]
 }
