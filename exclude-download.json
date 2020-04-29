@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "libs-snapshot-local/devops/ilp1/ILP/0.0.1-SNAPSHOT",
+      "pattern": "libs-snapshot-local/devops",
       "target": "Bazinga/",
     }
   ]
